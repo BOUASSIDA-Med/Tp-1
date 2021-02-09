@@ -16,9 +16,13 @@ function showCity() {
     document.getElementById("Paris").style.display = "none";
     document.getElementById("Lyon").style.display = "none";
     document.getElementById("Montbeliard").style.display = "";
+  } else if (cities == "") {
+    document.getElementById("Paris").style.display = "none";
+    document.getElementById("Lyon").style.display = "none";
+    document.getElementById("Montbeliard").style.display = "none";
   } else {
-    document.getElementById("Paris").style.display = "";
-    document.getElementById("Lyon").style.display = "";
-    document.getElementById("Montbeliard").style.display = "";
+    document.getElementById("Paris").style.display = "none";
+    document.getElementById("Lyon").style.display = "none";
+    document.getElementById("Montbeliard").style.display = "none";
   }
 }
